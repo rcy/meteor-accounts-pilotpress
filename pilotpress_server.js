@@ -33,8 +33,6 @@ Accounts.registerLoginHandler(function (options) {
     throw new Meteor.Error(400, 'could not find pilotpress username');
 
   var serviceData = _.extend({id: content.pilotpress.contact_id}, content.pilotpress);
-  var email = serviceData.fields['--Contact Information--']['E-Mail'];
-  console.log('email', email);
 
   // skip fields because OAP users control the keys, and could contain illegal mongo chars '.' and '$'
   delete serviceData.fields; // = JSON.stringify(content.pilotpress.fields);
