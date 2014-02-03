@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "oap-pilotpress": {
+        "path": ".."
+      }
+    },
+    "packages": {
+      "oap-pilotpress": {
+        "path": ".."
+      }
+    }
+  }
+}

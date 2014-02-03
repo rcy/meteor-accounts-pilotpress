@@ -1,0 +1,5 @@
+{
+  "site": "WORDPRESS SITE NAME",
+  "appId": "APP_ID",
+  "secret": "APP_KEY"
+}
